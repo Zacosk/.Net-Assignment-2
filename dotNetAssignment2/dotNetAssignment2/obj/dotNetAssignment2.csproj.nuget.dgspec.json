@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zac\\source\\repos\\dotNetAssignment2\\dotNetAssignment2\\dotNetAssignment2.csproj": {}
+    "C:\\Users\\Zac\\Documents\\GitHub\\.Net-Assignment-2\\dotNetAssignment2\\dotNetAssignment2\\dotNetAssignment2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zac\\source\\repos\\dotNetAssignment2\\dotNetAssignment2\\dotNetAssignment2.csproj": {
+    "C:\\Users\\Zac\\Documents\\GitHub\\.Net-Assignment-2\\dotNetAssignment2\\dotNetAssignment2\\dotNetAssignment2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zac\\source\\repos\\dotNetAssignment2\\dotNetAssignment2\\dotNetAssignment2.csproj",
+        "projectUniqueName": "C:\\Users\\Zac\\Documents\\GitHub\\.Net-Assignment-2\\dotNetAssignment2\\dotNetAssignment2\\dotNetAssignment2.csproj",
         "projectName": "dotNetAssignment2",
-        "projectPath": "C:\\Users\\Zac\\source\\repos\\dotNetAssignment2\\dotNetAssignment2\\dotNetAssignment2.csproj",
+        "projectPath": "C:\\Users\\Zac\\Documents\\GitHub\\.Net-Assignment-2\\dotNetAssignment2\\dotNetAssignment2\\dotNetAssignment2.csproj",
         "packagesPath": "C:\\Users\\Zac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zac\\source\\repos\\dotNetAssignment2\\dotNetAssignment2\\obj\\",
+        "outputPath": "C:\\Users\\Zac\\Documents\\GitHub\\.Net-Assignment-2\\dotNetAssignment2\\dotNetAssignment2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

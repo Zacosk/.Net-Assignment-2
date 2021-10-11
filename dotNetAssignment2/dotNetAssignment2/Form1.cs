@@ -68,8 +68,9 @@ namespace dotNetAssignment2
 
         private void newUserBtn_Click(object sender, EventArgs e)
         {
+            CreateNewUserForm newAccountForm = new CreateNewUserForm();
+            newAccountForm.Show();
             this.Hide();
-            //New form
         }
     }
     class User
