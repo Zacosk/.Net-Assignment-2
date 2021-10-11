@@ -11,10 +11,10 @@ using System.IO;
 
 namespace dotNetAssignment2
 {
-    public partial class LoginPage : Form
+    public partial class LoginForm : Form
     {
         LinkedList<User> users = new LinkedList<User>();
-        public LoginPage()
+        public LoginForm()
         {
             InitializeComponent();
             LoadLineDetails();
@@ -31,10 +31,9 @@ namespace dotNetAssignment2
             string password = passwordTxt.Text;
             if (VerifyLoginDetails(username, password))
             {
-                MessageBox.Show("Login accepted", "Login");
-                //Form2 textForm = new Form2();
-                //textForm.Show();
-                //this.Hide();
+                TextEditorForm textEditorForm = new TextEditorForm();
+                textEditorForm.Show();
+                this.Hide();
             }
         }
         private void LoadLineDetails()

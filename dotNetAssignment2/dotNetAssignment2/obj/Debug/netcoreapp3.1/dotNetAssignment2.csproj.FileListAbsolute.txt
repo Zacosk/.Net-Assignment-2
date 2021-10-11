@@ -20,7 +20,6 @@ C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignme
 C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignment2\bin\Debug\netcoreapp3.1\dotNetAssignment2.dll
 C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignment2\bin\Debug\netcoreapp3.1\dotNetAssignment2.pdb
 C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.csproj.AssemblyReference.cache
-C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.LoginPage.resources
 C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.CreateNewUserForm.resources
 C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.csproj.GenerateResource.cache
 C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.AssemblyInfoInputs.cache
@@ -29,3 +28,7 @@ C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignme
 C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.dll
 C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.pdb
 C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.genruntimeconfig.cache
+C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.TextEditorForm.resources
+C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.LoginForm.resources
+C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.Properties.Resources.resources
+C:\Users\Zac\Documents\GitHub\.Net-Assignment-2\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.AboutForm.resources

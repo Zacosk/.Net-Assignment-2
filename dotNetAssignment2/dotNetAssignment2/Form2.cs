@@ -20,7 +20,7 @@ namespace dotNetAssignment2
         private void cancelBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            LoginPage loginForm = new LoginPage();
+            LoginForm loginForm = new LoginForm();
             loginForm.Show();
         }
 
@@ -43,7 +43,7 @@ namespace dotNetAssignment2
                     {
                         File.AppendAllText("login.txt", "\n" + username + "," + password1 + "," + type + "," + firstName + "," + lastName + "," + date);
                         this.Hide();
-                        LoginPage loginForm = new LoginPage();
+                        LoginForm loginForm = new LoginForm();
                         loginForm.Show();
                     }
                     else

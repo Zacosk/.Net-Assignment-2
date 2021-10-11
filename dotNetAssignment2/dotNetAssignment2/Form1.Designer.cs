@@ -1,7 +1,7 @@
 ﻿
 namespace dotNetAssignment2
 {
-    partial class LoginPage
+    partial class LoginForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -114,7 +114,7 @@ namespace dotNetAssignment2
             this.exitBtn.UseVisualStyleBackColor = true;
             this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
             // 
-            // LoginPage
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -127,7 +127,7 @@ namespace dotNetAssignment2
             this.Controls.Add(this.passwordTxt);
             this.Controls.Add(this.userNameTxt);
             this.Controls.Add(this.label1);
-            this.Name = "LoginPage";
+            this.Name = "LoginForm";
             this.Text = "LoginPage";
             this.ResumeLayout(false);
             this.PerformLayout();
