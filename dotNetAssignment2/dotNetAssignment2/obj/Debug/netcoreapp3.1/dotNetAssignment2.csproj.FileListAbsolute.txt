@@ -1,0 +1,15 @@
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\bin\Debug\netcoreapp3.1\dotNetAssignment2.exe
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\bin\Debug\netcoreapp3.1\dotNetAssignment2.deps.json
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\bin\Debug\netcoreapp3.1\dotNetAssignment2.runtimeconfig.json
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\bin\Debug\netcoreapp3.1\dotNetAssignment2.runtimeconfig.dev.json
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\bin\Debug\netcoreapp3.1\dotNetAssignment2.dll
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\bin\Debug\netcoreapp3.1\dotNetAssignment2.pdb
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.csproj.AssemblyReference.cache
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.csproj.GenerateResource.cache
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.AssemblyInfoInputs.cache
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.AssemblyInfo.cs
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.csproj.CoreCompileInputs.cache
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.dll
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.pdb
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.genruntimeconfig.cache
+C:\Users\Zac\source\repos\dotNetAssignment2\dotNetAssignment2\obj\Debug\netcoreapp3.1\dotNetAssignment2.LoginPage.resources
