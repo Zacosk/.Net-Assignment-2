@@ -29,13 +29,25 @@ namespace dotNetAssignment2
         /// </summary>
         private void InitializeComponent()
         {
+            this.okBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // okBtn
+            // 
+            this.okBtn.Location = new System.Drawing.Point(500, 389);
+            this.okBtn.Name = "okBtn";
+            this.okBtn.Size = new System.Drawing.Size(94, 29);
+            this.okBtn.TabIndex = 0;
+            this.okBtn.Text = "OK";
+            this.okBtn.UseVisualStyleBackColor = true;
+            this.okBtn.Click += new System.EventHandler(this.okBtn_Click);
             // 
             // AboutForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(609, 450);
+            this.Controls.Add(this.okBtn);
             this.Name = "AboutForm";
             this.Text = "About";
             this.ResumeLayout(false);
@@ -43,5 +55,7 @@ namespace dotNetAssignment2
         }
 
         #endregion
+
+        private System.Windows.Forms.Button okBtn;
     }
 }

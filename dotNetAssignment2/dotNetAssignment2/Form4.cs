@@ -14,5 +14,12 @@ namespace dotNetAssignment2
         {
             InitializeComponent();
         }
+
+        private void okBtn_Click(object sender, EventArgs e)
+        {
+            TextEditorForm textEditorForm = new TextEditorForm();
+            textEditorForm.Show();
+            this.Hide();
+        }
     }
 }

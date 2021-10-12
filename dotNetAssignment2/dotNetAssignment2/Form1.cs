@@ -14,6 +14,7 @@ namespace dotNetAssignment2
     public partial class LoginForm : Form
     {
         LinkedList<User> users = new LinkedList<User>();
+        public static User selectedUser;
         public LoginForm()
         {
             InitializeComponent();
@@ -54,8 +55,8 @@ namespace dotNetAssignment2
             {
                 User currentUser = users.ElementAt(i);
                 if (username == currentUser.username && password == currentUser.password)
-                { 
-                    //this.Hide();
+                {
+                    selectedUser = users.ElementAt(i);
                     return true;
                 }
             }
@@ -72,9 +73,9 @@ namespace dotNetAssignment2
             this.Hide();
         }
     }
-    class User
+    public class User
     {
-        enum UserType
+        public enum UserType
         {
             View,
             Edit
@@ -82,7 +83,7 @@ namespace dotNetAssignment2
         public string username { get; }
         public string password { get; }
         string firstName, lastName, dob;
-        UserType userType;
+        public UserType userType { get; }
         public User(string username, string password, string userType, string firstName, string lastName, string dob)
         {
             this.username = username;
