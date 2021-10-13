@@ -54,7 +54,7 @@ namespace dotNetAssignment2
             this.topToolStripBoldBtn = new System.Windows.Forms.ToolStripButton();
             this.topToolStripItalicBtn = new System.Windows.Forms.ToolStripButton();
             this.topToolStripUnderlineBtn = new System.Windows.Forms.ToolStripButton();
-            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
+            this.topToolStripSizeComboBox = new System.Windows.Forms.ToolStripComboBox();
             this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.userNameLabel = new System.Windows.Forms.ToolStripLabel();
@@ -159,7 +159,7 @@ namespace dotNetAssignment2
             // 
             this.cutToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cutToolStripMenuItem.Image")));
             this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
-            this.cutToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cutToolStripMenuItem.Size = new System.Drawing.Size(126, 26);
             this.cutToolStripMenuItem.Text = "Cut";
             this.cutToolStripMenuItem.Click += new System.EventHandler(this.cutToolStripMenuItem_Click);
             // 
@@ -167,7 +167,7 @@ namespace dotNetAssignment2
             // 
             this.copyToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("copyToolStripMenuItem.Image")));
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(126, 26);
             this.copyToolStripMenuItem.Text = "Copy";
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
@@ -175,7 +175,7 @@ namespace dotNetAssignment2
             // 
             this.pasteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pasteToolStripMenuItem.Image")));
             this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
-            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(126, 26);
             this.pasteToolStripMenuItem.Text = "Paste";
             this.pasteToolStripMenuItem.Click += new System.EventHandler(this.pasteToolStripMenuItem_Click);
             // 
@@ -206,7 +206,7 @@ namespace dotNetAssignment2
             this.topToolStripBoldBtn,
             this.topToolStripItalicBtn,
             this.topToolStripUnderlineBtn,
-            this.toolStripComboBox1,
+            this.topToolStripSizeComboBox,
             this.toolStripButton8,
             this.toolStripSeparator4,
             this.userNameLabel});
@@ -291,10 +291,25 @@ namespace dotNetAssignment2
             this.topToolStripUnderlineBtn.Text = "Underline";
             this.topToolStripUnderlineBtn.Click += new System.EventHandler(this.topToolStripUnderlineBtn_Click);
             // 
-            // toolStripComboBox1
+            // topToolStripSizeComboBox
             // 
-            this.toolStripComboBox1.Name = "toolStripComboBox1";
-            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 28);
+            this.topToolStripSizeComboBox.Items.AddRange(new object[] {
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"});
+            this.topToolStripSizeComboBox.Name = "topToolStripSizeComboBox";
+            this.topToolStripSizeComboBox.Size = new System.Drawing.Size(121, 28);
+            this.topToolStripSizeComboBox.SelectedIndexChanged += new System.EventHandler(this.toolStripComboBox1_SelectedIndexChanged);
             // 
             // toolStripButton8
             // 
@@ -394,7 +409,7 @@ namespace dotNetAssignment2
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;
+        private System.Windows.Forms.ToolStripComboBox topToolStripSizeComboBox;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBox2;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBox3;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;

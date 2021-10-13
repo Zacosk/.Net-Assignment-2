@@ -247,5 +247,19 @@ namespace dotNetAssignment2
         {
             PasteSelectedText();
         }
+
+        private void toolStripComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (richTextBox1.SelectionFont != null)
+            {
+                System.Drawing.Font currentFont = richTextBox1.SelectionFont;
+
+                richTextBox1.SelectionFont = new Font(
+                   currentFont.FontFamily,
+                   Convert.ToInt32(topToolStripSizeComboBox.SelectedItem),
+                   currentFont.Style
+                );
+            }
+        }
     }
 }
