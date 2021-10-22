@@ -38,7 +38,6 @@ namespace dotNetAssignment2
         {
             AboutForm aboutForm = new AboutForm();
             aboutForm.Show();
-            //this.Hide();
         }
 
         private void SetControlPermissions(Boolean bol)
@@ -69,6 +68,7 @@ namespace dotNetAssignment2
             if (dr == DialogResult.OK)
             {
                 richTextBox1.Lines = File.ReadAllLines(openFileDialog.FileName);
+                openedFileName = openFileDialog.FileName;
             }
         }
 
@@ -115,7 +115,7 @@ namespace dotNetAssignment2
         {
             if (openedFileName == null)
             {
-                SaveFile();
+                SaveAsFile();
             } else
             {
                 File.WriteAllLines(openedFileName, richTextBox1.Lines);
