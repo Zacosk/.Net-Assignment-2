@@ -261,5 +261,11 @@ namespace dotNetAssignment2
                 );
             }
         }
+
+        private void toolStripButton8_Click(object sender, EventArgs e)
+        {
+            AboutForm aboutForm = new AboutForm();
+            aboutForm.Show();
+        }
     }
 }
