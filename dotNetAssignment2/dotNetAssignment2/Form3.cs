@@ -147,36 +147,51 @@ namespace dotNetAssignment2
             if (richTextBox1.SelectionFont != null)
             {
                 System.Drawing.Font currentFont = richTextBox1.SelectionFont;
+                System.Drawing.FontStyle boldFontStyle = FontStyle.Regular;
+                System.Drawing.FontStyle underlineFontStyle = FontStyle.Regular;
+                System.Drawing.FontStyle italicFontStyle = FontStyle.Regular;
+                if (currentFont.Style == FontStyle.Bold)
+                {
+                    boldFontStyle = FontStyle.Bold;
+                }
+                if (currentFont.Style == FontStyle.Italic)
+                {
+                    italicFontStyle = FontStyle.Italic;
+                }
+                if (currentFont.Style == FontStyle.Underline)
+                {
+                    boldFontStyle = FontStyle.Underline;
+                }
 
-                switch(newFontStyle)
+                switch (newFontStyle)
                 {
                     case FontStyle.Italic:
                         if (richTextBox1.SelectionFont.Italic == true)
                         {
-                            newFontStyle = FontStyle.Regular;
+                            italicFontStyle = FontStyle.Regular;
                         }
                         else
                         {
-                            newFontStyle = FontStyle.Italic;
+                            italicFontStyle = FontStyle.Italic;
                         } break;
                     case FontStyle.Bold:
                         if (richTextBox1.SelectionFont.Bold == true)
                         {
-                            newFontStyle = FontStyle.Regular;
+                            boldFontStyle = FontStyle.Regular;
                         }
                         else
                         {
-                            newFontStyle = FontStyle.Bold;
+                            boldFontStyle = FontStyle.Bold;
                         }
                         break;
                     case FontStyle.Underline:
                         if (richTextBox1.SelectionFont.Underline == true)
                         {
-                            newFontStyle = FontStyle.Regular;
+                            underlineFontStyle = FontStyle.Regular;
                         }
                         else
                         {
-                            newFontStyle = FontStyle.Underline;
+                            underlineFontStyle = FontStyle.Underline;
                         }
                         break;
                 }
@@ -184,7 +199,7 @@ namespace dotNetAssignment2
                 richTextBox1.SelectionFont = new Font(
                    currentFont.FontFamily,
                    currentFont.Size,
-                   newFontStyle
+                   underlineFontStyle | boldFontStyle | italicFontStyle
                 );
             }
         }
