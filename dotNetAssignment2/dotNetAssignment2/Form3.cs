@@ -38,7 +38,7 @@ namespace dotNetAssignment2
         {
             AboutForm aboutForm = new AboutForm();
             aboutForm.Show();
-            this.Hide();
+            //this.Hide();
         }
 
         private void SetControlPermissions(Boolean bol)

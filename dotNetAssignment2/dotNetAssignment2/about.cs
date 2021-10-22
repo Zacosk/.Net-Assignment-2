@@ -7,15 +7,15 @@ using System.Windows.Forms;
 
 namespace dotNetAssignment2
 {
-    partial class about : Form
+    partial class AboutForm : Form
     {
-        public about()
+        public AboutForm()
         {
             InitializeComponent();
             this.Text = String.Format("About {0}", AssemblyTitle);
-            this.labelProductName.Text = AssemblyProduct;
+            this.labelProductName.Text = "Rich Text Editor with Login";
             this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
-            this.labelCopyright.Text = AssemblyCopyright;
+            this.labelCopyright.Text = "Zachary Loofs - 13553538";
             this.labelCompanyName.Text = AssemblyCompany;
             this.textBoxDescription.Text = AssemblyDescription;
         }
@@ -99,5 +99,10 @@ namespace dotNetAssignment2
             }
         }
         #endregion
+
+        private void okButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
