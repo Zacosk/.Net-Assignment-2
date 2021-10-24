@@ -12,6 +12,7 @@ namespace dotNetAssignment2
         public AboutForm()
         {
             InitializeComponent();
+            //show about information
             this.Text = String.Format("About {0}", AssemblyTitle);
             this.labelProductName.Text = "Rich Text Editor with Login";
             this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
@@ -103,6 +104,7 @@ namespace dotNetAssignment2
         private void okButton_Click(object sender, EventArgs e)
         {
             this.Hide();
+            //hide this form
         }
     }
 }

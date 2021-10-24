@@ -23,15 +23,19 @@ namespace dotNetAssignment2
 
         private void exitBtn_Click(object sender, EventArgs e)
         {
+            //Exit program
             Application.Exit();
         }
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
+            //Get username and password from text fields
             string username = userNameTxt.Text;
             string password = passwordTxt.Text;
+            //Verify user inputted login details
             if (VerifyLoginDetails(username, password))
             {
+                //If login details are valid open new text editor
                 TextEditorForm textEditorForm = new TextEditorForm();
                 textEditorForm.Show();
                 this.Hide();
@@ -39,7 +43,7 @@ namespace dotNetAssignment2
         }
         private void LoadLineDetails()
         {
-            
+            //Load login details from login file into user list
             string[] fileText = File.ReadAllLines("login.txt");
             for (int i = 0; i < fileText.Length; i++)
             {
@@ -51,6 +55,7 @@ namespace dotNetAssignment2
 
         private Boolean VerifyLoginDetails(string username, string password)
         {
+            //Check each user within user list, return true if username and password match a user in user list, load user into current user
             for (int i = 0; i < users.Count; i++)
             {
                 User currentUser = users.ElementAt(i);
@@ -60,6 +65,7 @@ namespace dotNetAssignment2
                     return true;
                 }
             }
+            //Else return false, display error messagebox and clear login form text fields
             MessageBox.Show("Invalid login details", "Login", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             userNameTxt.Clear();
             passwordTxt.Clear();
@@ -68,6 +74,7 @@ namespace dotNetAssignment2
 
         private void newUserBtn_Click(object sender, EventArgs e)
         {
+            //Open new account form, hide this form
             CreateNewUserForm newAccountForm = new CreateNewUserForm();
             newAccountForm.Show();
             this.Hide();
@@ -75,6 +82,7 @@ namespace dotNetAssignment2
     }
     public class User
     {
+        //User class to contain all user details
         public enum UserType
         {
             View,
@@ -92,11 +100,6 @@ namespace dotNetAssignment2
             this.lastName = lastName;
             this.dob = dob;
             this.userType = (UserType) Enum.Parse(typeof(UserType), userType);
-        }
-        string PrintableLine()
-        {
-            string text = username + "," + password + "," + userType.ToString() + "," + firstName + "," + lastName + "," + dob;
-            return text;
         }
     }
 }
